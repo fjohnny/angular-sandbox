@@ -44,12 +44,12 @@ export class UsersComponent implements OnInit {
           //   street: "149 High Street",
           //   city: "Thomastown",
           //   state: "VIC"
-          }
+          //}
         }
       ];
 
       this.loaded = true;
-    }, 3000);
+    }, 1000);
 
     // this.addUser({
     //   firstName: "David",
@@ -65,5 +65,5 @@ export class UsersComponent implements OnInit {
 
   // addUser(user: User) {
   //   this.users.push(user);
-  }
+  //}
 }
